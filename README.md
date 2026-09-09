@@ -11,7 +11,8 @@ Este documento sirve como bitácora de registro cronológico del progreso, activ
 | Fecha | Módulo / Tema | Actividad Realizada | Responsable | Estado | Observaciones |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-09-02 | Inicialización | Creación del repositorio inicial y estructura de bitácora | leonardomoop | Completado | Repositorio público configurado |
-| | | | | Pendiente | |
+| 2026-09-07 | POO / Vehículo | Implementación de clase base Vehiculo con constructor, atributos (patente, anio, _en_taller) y métodos ingresar() y entregar() | leonardomoop | Completado | Archivo vehiculo.py configurado |
+| 2026-09-09 | Control de Versiones | Creación y cambio a rama feature/desarrollo para desarrollo de nuevas funcionalidades | leonardomoop | En progreso | Rama feature/desarrollo activa |
 
 ---
 
