@@ -6,7 +6,11 @@ vehiculo1 = Vehiculo("AB1234", 2020)
 # Marcarlo como ingresado al taller
 vehiculo1.ingresar()
 
-# Imprimir su patente, año y tarifa_hora()
+# Mensaje de recepción
+mensaje = "Vehículo ingresado exitosamente al taller para revisión."
+
+# Imprimir su patente, año, tarifa_hora() y mensaje
 print(f"Patente: {vehiculo1.patente}")
 print(f"Año: {vehiculo1.anio}")
 print(f"Tarifa por hora: {vehiculo1.tarifa_hora()}")
+print(f"Mensaje: {mensaje}")
