@@ -18,3 +18,7 @@ class Vehiculo:
     def entregar(self) -> None:
         # Cambia el estado de _en_taller a False indicando que el vehículo salió del taller
         self._en_taller = False
+
+    # Método que retorna la tarifa por hora genérica
+    def tarifa_hora(self) -> int:
+        return 5000
