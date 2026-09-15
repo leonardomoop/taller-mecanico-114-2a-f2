@@ -3,5 +3,7 @@ from vehiculo import Vehiculo
 
 # Define la clase Camion que hereda de la clase base Vehiculo
 class Camion(Vehiculo):
-    # Instrucción pass que sirve como marcador de posición ya que la clase hereda todo el comportamiento sin modificaciones
-    pass
+    # Implementación del método abstracto tarifa_hora para la clase Camion
+    def tarifa_hora(self) -> int:
+        # Retorna la tarifa por hora correspondiente a un camión
+        return 40000

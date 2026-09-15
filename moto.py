@@ -3,5 +3,7 @@ from vehiculo import Vehiculo
 
 # Define la clase Moto que hereda de la clase base Vehiculo
 class Moto(Vehiculo):
-    # Instrucción pass que sirve como marcador de posición ya que la clase hereda todo el comportamiento sin modificaciones
-    pass
+    # Implementación del método abstracto tarifa_hora para la clase Moto
+    def tarifa_hora(self) -> int:
+        # Retorna la tarifa por hora correspondiente a una moto
+        return 20000
